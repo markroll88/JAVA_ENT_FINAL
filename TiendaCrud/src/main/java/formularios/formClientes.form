@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="formularios.formClientes">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="top:10dlu:noGrow"/>
+    <rowspec value="top:11dlu:noGrow"/>
+    <rowspec value="center:11dlu:noGrow"/>
+    <rowspec value="center:30px:noGrow"/>
+    <rowspec value="top:12dlu:noGrow"/>
+    <rowspec value="top:11dlu:noGrow"/>
+    <rowspec value="top:10dlu:noGrow"/>
+    <rowspec value="top:11dlu:noGrow"/>
+    <rowspec value="top:33px:noGrow"/>
+    <rowspec value="top:10dlu:noGrow"/>
+    <rowspec value="center:29px:noGrow"/>
+    <rowspec value="top:11dlu:noGrow"/>
+    <rowspec value="top:10dlu:noGrow"/>
+    <rowspec value="center:38px:noGrow"/>
+    <rowspec value="center:34px:noGrow"/>
+    <rowspec value="center:160px:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:30px:noGrow"/>
+    <rowspec value="top:15dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:181px:noGrow"/>
+    <colspec value="left:24dlu:noGrow"/>
+    <colspec value="left:188px:noGrow"/>
+    <colspec value="fill:66px:noGrow"/>
+    <colspec value="fill:178px:noGrow"/>
+    <constraints>
+      <xy x="-3" y="-4" width="707" height="1000"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="true"/>
+      <background color="-3349006"/>
+      <doubleBuffered value="false"/>
+      <enabled value="true"/>
+      <focusable value="false"/>
+      <foreground color="-657931"/>
+      <inheritsPopupMenu value="true"/>
+      <minimumSize width="400" height="1000"/>
+      <preferredSize width="400" height="1000"/>
+    </properties>
+    <border type="none" title="ThorMil PetShop" title-justification="2">
+      <font/>
+      <title-color color="-46328"/>
+    </border>
+    <children>
+      <component id="cb4db" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="3" left="0" bottom="0" right="0" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Nombre"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="66505" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.3"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="10"/>
+          <labelFor value="1df12"/>
+          <maximumSize width="73" height="27"/>
+          <minimumSize width="70" height="27"/>
+          <preferredSize width="73" height="27"/>
+          <text value="Nro ID"/>
+        </properties>
+      </component>
+      <vspacer id="b11c7">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+      </vspacer>
+      <component id="69b19" class="javax.swing.JTextField" binding="textId" custom-create="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <maximumSize width="20" height="30"/>
+          <minimumSize width="20" height="30"/>
+          <preferredSize width="20" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="56ba4" class="javax.swing.JTextField" binding="textNombre" custom-create="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c0554" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <maximumSize width="73" height="27"/>
+          <minimumSize width="73" height="27"/>
+          <preferredSize width="73" height="27"/>
+          <text value="Mascota/s"/>
+        </properties>
+      </component>
+      <component id="7bd5e" class="javax.swing.JTextField" binding="textMascota">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <minimumSize width="86" height="30"/>
+        </properties>
+      </component>
+      <scrollpane id="1df12">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="bdd5f" class="javax.swing.JTable" binding="tblData" custom-create="true">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.5"/>
+              <alignmentY value="0.5"/>
+              <autoCreateColumnsFromModel value="true"/>
+              <autoCreateRowSorter value="true"/>
+              <autoResizeMode value="2"/>
+              <background color="-14973697"/>
+              <cellSelectionEnabled value="true"/>
+              <columnSelectionAllowed value="true"/>
+              <doubleBuffered value="false"/>
+              <dragEnabled value="false"/>
+              <dropMode value="ON_OR_INSERT_ROWS"/>
+              <editingColumn value="11"/>
+              <editingRow value="11"/>
+              <enabled value="true"/>
+              <fillsViewportHeight value="true"/>
+              <focusCycleRoot value="false"/>
+              <focusTraversalPolicyProvider value="false"/>
+              <focusable value="true"/>
+              <foreground color="-657931"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="250" height="700"/>
+              <minimumSize width="250" height="300"/>
+              <preferredScrollableViewportSize width="250" height="100"/>
+              <preferredSize width="250" height="300"/>
+              <requestFocusEnabled value="false"/>
+              <rowHeight value="20"/>
+              <rowSelectionAllowed value="true"/>
+              <showHorizontalLines value="true"/>
+              <surrendersFocusOnKeystroke value="false"/>
+              <toolTipText value="    "/>
+              <updateSelectionOnSort value="false"/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+            <clientProperties>
+              <JTable.autoStartsEdit class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="4aaa8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <maximumSize width="73" height="27"/>
+          <minimumSize width="73" height="27"/>
+          <preferredSize width="73" height="27"/>
+          <text value="Apellido"/>
+        </properties>
+      </component>
+      <component id="f478b" class="javax.swing.JTextField" binding="textApellido">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6d207" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <labelFor value="b3fd6"/>
+          <text value="Clave"/>
+        </properties>
+      </component>
+      <component id="b3fd6" class="javax.swing.JPasswordField" binding="clave">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+        <clientProperties>
+          <JPasswordField.cutCopyAllowed class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="966de" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Usuario"/>
+        </properties>
+      </component>
+      <component id="a2607" class="javax.swing.JTextField" binding="textUsuario">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ae5d" class="javax.swing.JRadioButton" binding="btnInsert">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Insert"/>
+          <focusCycleRoot value="false"/>
+          <horizontalAlignment value="10"/>
+          <label value="AGREGAR"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="150" height="20"/>
+          <minimumSize width="100" height="20"/>
+          <preferredSize width="150" height="20"/>
+          <text value="AGREGAR"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="a49c6" class="javax.swing.JRadioButton" binding="btnUpdate">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Mofificar"/>
+          <focusCycleRoot value="false"/>
+          <horizontalAlignment value="0"/>
+          <label value="MODIFICAR"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="150" height="20"/>
+          <minimumSize width="100" height="20"/>
+          <preferredSize width="150" height="20"/>
+          <text value="MODIFICAR"/>
+        </properties>
+      </component>
+      <component id="ef511" class="javax.swing.JRadioButton" binding="btnDelete">
+        <constraints>
+          <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Delete"/>
+          <focusCycleRoot value="false"/>
+          <horizontalAlignment value="10"/>
+          <label value="DELETE"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="150" height="20"/>
+          <minimumSize width="100" height="20"/>
+          <preferredSize width="150" height="20"/>
+          <text value="DELETE"/>
+        </properties>
+      </component>
+      <component id="f38d9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Fecha de Nacimiento"/>
+        </properties>
+      </component>
+      <component id="26cc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <maximumSize width="73" height="27"/>
+          <minimumSize width="73" height="27"/>
+          <preferredSize width="73" height="27"/>
+          <text value="Alimento "/>
+        </properties>
+      </component>
+      <component id="eb13a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Edad"/>
+        </properties>
+      </component>
+      <component id="de0b4" class="javax.swing.JTextField" binding="textFecha_nacimiento">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="aaec4" class="javax.swing.JTextField" binding="textAlimento">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fc5a1" class="javax.swing.JTextField" binding="textEdad">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6a8ba" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="21358" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <background color="-3349006"/>
+          <horizontalAlignment value="0"/>
+          <text value="Telefono"/>
+          <verticalAlignment value="1"/>
+          <verticalTextPosition value="1"/>
+        </properties>
+      </component>
+      <component id="f5584" class="javax.swing.JTextField" binding="textEmail">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c504" class="javax.swing.JTextField" binding="textTelefono">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
